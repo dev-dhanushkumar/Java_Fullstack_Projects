@@ -16,13 +16,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dev.domain.AccountStatus;
+import com.dev.exceptions.SellerException;
 import com.dev.model.Seller;
+import com.dev.model.SellerReport;
 import com.dev.model.VerificationCode;
 import com.dev.repository.VerificationCodeRepository;
 import com.dev.request.LoginRequest;
 import com.dev.response.AuthResponse;
 import com.dev.service.AuthService;
 import com.dev.service.EmailService;
+import com.dev.service.SellerReportService;
 import com.dev.service.SellerService;
 import com.dev.utils.OtpUtil;
 
@@ -37,6 +40,8 @@ public class SellerController {
     private final VerificationCodeRepository verificationCodeRepository;
     private final AuthService authService;
     private final EmailService emailService;
+    private final SellerReportService sellerReportService;
+
 
 
     @PostMapping("/login")
@@ -88,7 +93,7 @@ public class SellerController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Seller> getSellerById(@PathVariable Long id) throws Exception {
+    public ResponseEntity<Seller> getSellerById(@PathVariable Long id) throws SellerException {
         Seller seller = sellerService.getSellerById(id);
         return new ResponseEntity<>(seller,HttpStatus.OK);
     }
@@ -107,6 +112,15 @@ public class SellerController {
     ) throws Exception {
         List<Seller> sellers = sellerService.getAllSellers(status);
         return ResponseEntity.ok(sellers);
+    }
+
+    @GetMapping("/report")
+    public ResponseEntity<SellerReport> getSellerReport(
+        @RequestHeader("Authorization") String jwt
+    ) throws Exception {
+        Seller seller = sellerService.getSellerProfile(jwt);
+        SellerReport sellerReport = sellerReportService.getSellerReport(seller);
+        return new ResponseEntity<>(sellerReport, HttpStatus.OK);
     }
 
     @PatchMapping
