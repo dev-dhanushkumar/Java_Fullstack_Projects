@@ -26,7 +26,6 @@ public class Category {
 
     private String name;
 
-    @NotNull
     @Column(unique = true)
     private String categoryId;
 
