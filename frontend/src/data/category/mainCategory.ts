@@ -6,7 +6,7 @@ export const mainCategory = [
         levelTwoCategory:  [
             {
                 "name":"Topwere",
-                "categoryId":"men_topwear",
+                "categoryId":"men_topwere",
                 "parentCategoryId":"men",
                 "level":2
             },
@@ -79,7 +79,7 @@ export const mainCategory = [
             },
             {
                 "name":"Buauty & Personal Care",
-                "categoryId":"women_buauty_and_personal_care",
+                "categoryId":"women_beauty_and_personal_care",
                 "parentCategoryId":"women",
                 "level":2
             },
@@ -97,7 +97,7 @@ export const mainCategory = [
             },
             {
                 "name":"Handbags, Bags & wallets",
-                "categoryId":"women_handbags_Bags_and_wallets",
+                "categoryId":"women_handbags_bags_and_wallets",
                 "parentCategoryId":"women",
                 "level":2
             }
@@ -105,12 +105,94 @@ export const mainCategory = [
     },
     {
         name: "Home & Furniture",
-        categoryId:"Home_furniture",
-        level: 1
+        categoryId:"home_furniture",
+        level: 1,
+        levelTwoCategory: [
+            {
+                "name":"Bed Linen & Furnishing",
+                "categoryId":"home_furniture_bed_linen_and_furnishing",
+                "parentCategoryId":"home_furniture",
+                "level":2
+            },
+            {
+                "name":"Flooring",
+                "categoryId":"home_furniture_flooring",
+                "parentCategoryId":"home_furniture",
+                "level":2
+            },
+            {
+                "name":"Bath",
+                "categoryId":"home_furniture_bath",
+                "parentCategoryId":"home_furniture",
+                "level":2
+            },
+            {
+                "name":"Lamps & Lighting",
+                "categoryId":"home_furniture_lamps_and_lighting",
+                "parentCategoryId":"home_furniture",
+                "level":2
+            },
+            {
+                "name":"Home Decor",
+                "categoryId":"home_furniture_home_decor",
+                "parentCategoryId":"home_furniture",
+                "level":2
+            },
+            {
+                "name":"Kitchen & Table",
+                "categoryId":"home_furniture_kitchen_and_table",
+                "parentCategoryId":"home_furniture",
+                "level":2
+            }
+        ]
     },
     {
         name: "Electronics",
         categoryId:"electronics",
-        level:1
+        level:1,
+        levelTwoCategory:[
+            {
+                "name": "Mobiles",
+                "categoryId": "electronics_mobiles",
+                "parentCategoryId": "electronics",
+                "level": 2
+            },
+            {
+                "name": "Mobile Accessories",
+                "categoryId": "electronics_mobile_accessories",
+                "parentCategoryId": "electronics",
+                "level": 2
+            },
+            {
+                "name": "Smart Wearable Tech",
+                "categoryId": "electronics_smart_wearable_tech",
+                "parentCategoryId": "electronics",
+                "level": 2
+            },
+            {
+                "name": "Laptops",
+                "categoryId": "electronics_laptops",
+                "parentCategoryId": "electronics",
+                "level": 2
+            },
+            {
+                "name": "Tablets",
+                "categoryId": "electronics_tablets",
+                "parentCategoryId": "electronics",
+                "level": 2
+            },
+            {
+                "name": "Speakers",
+                "categoryId": "electronics_speakers",
+                "parentCategoryId": "electronics",
+                "level": 2
+            },
+            {
+                "name": "Camera",
+                "categoryId": "electronics_camera",
+                "parentCategoryId": "electronics",
+                "level": 2
+            }
+        ]
     }
 ]

@@ -31,7 +31,7 @@ export const womenLevelTwo = [
     },
     {
         "name":"Buauty & Personal Care",
-        "categoryId":"women_buauty_and_personal_care",
+        "categoryId":"women_beauty_and_personal_care",
         "parentCategoryId":"women",
         "level":2
     },
@@ -49,7 +49,7 @@ export const womenLevelTwo = [
     },
     {
         "name":"Handbags, Bags & wallets",
-        "categoryId":"women_handbags_Bags_and_wallets",
+        "categoryId":"women_handbags_bags_and_wallets",
         "parentCategoryId":"women",
         "level":2
     }

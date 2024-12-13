@@ -2,86 +2,86 @@ export const menLevelThree = [
     {
         "name":"T-Shirts",
         "categoryId":"men_t_shirts",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Casual Shirts",
         "categoryId":"men_casual_shirts",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Formal Shirts",
         "categoryId":"men_formal_shirts",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Sweatshirts",
         "categoryId":"men_sweatshirts",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Sweaters",
         "categoryId":"men_sweaters",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Jackets",
         "categoryId":"men_jackets",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Blazers & Coats",
         "categoryId":"men_blazers_and_coats",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Suits",
         "categoryId":"men_suits",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Rain Jackets",
         "categoryId":"men_rain_jackets",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Indian & Festive Wear",
         "categoryId":"men_indian_and_festive_wear",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Kurtas & Kurta Sets",
         "categoryId":"men_kurtas_and_kurta_sets",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Sherwanis",
         "categoryId":"men_sherwanis",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Nehru Jackets",
         "categoryId":"men_nehru_jackets",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
     {
         "name":"Dhotis",
         "categoryId":"men_dhotis",
-        "parentCategoryName":"Topwear",
-        "parentCategoryId":"men_topwear"
+        "parentCategoryName":"Topwere",
+        "parentCategoryId":"men_topwere"
     },
 
 
