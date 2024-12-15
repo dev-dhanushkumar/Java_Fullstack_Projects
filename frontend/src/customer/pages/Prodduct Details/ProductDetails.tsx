@@ -4,6 +4,7 @@ import { teal } from '@mui/material/colors';
 import { Button, Divider } from '@mui/material';
 import { Add, AddShoppingCart, FavoriteBorderOutlined, LocalShipping, Remove, Shield, Wallet, WorkspacePremium } from '@mui/icons-material';
 import SimilarProduct from './SimilarProduct';
+import ReviewCard from '../Review/ReviewCard';
 
 const ProductDetails = () => {
   const [quantity, setQuantity] = useState(1);
@@ -112,6 +113,11 @@ const ProductDetails = () => {
           This Sweatshirt is made of Fleece fabric and provides utmost comfort during normal and low 
           temperatures. This Sweatshirt is Regular Fit with superior quality fabric and stitching.
           </p>
+        </div>
+
+        <div className='mt-7 space-y-5'>
+          <ReviewCard />
+          <Divider />
         </div>
       </section>
       </div>
